@@ -10,15 +10,15 @@ public class LocadoraCarros {
 
         System.out.print("Número de horas de locação: ");
         int numeroHoras = scanner.nextInt();
-        scanner.nextLine(); // Consumir a quebra de linha restante
+        scanner.nextLine();
 
         System.out.print("Valor por hora: ");
         double valorHora = scanner.nextDouble();
-        scanner.nextLine(); // Consumir a quebra de linha restante
+        scanner.nextLine();
 
         System.out.print("Valor diário: ");
         double valorDiario = scanner.nextDouble();
-        scanner.nextLine(); // Consumir a quebra de linha restante
+        scanner.nextLine();
 
         double valorLocacao;
         if (numeroHoras <= 12) {
